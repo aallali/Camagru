@@ -1,0 +1,152 @@
+body {
+margin: 0;
+background-color: #3B5998;
+font-family: "Gill Sans", sans-serif;
+background-image: url(../img/bgbg.jpeg);
+/* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+.footer {
+position: fixed;
+bottom: 0px;
+height: 18px;
+width: 100%;
+text-align: center;
+background-color: #3B5998;
+color :white;
+
+}
+#header {
+	
+width: 100%;
+height: 60px;
+background-color: #3B5998;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+margin-bottom: 15px;
+}
+.button {
+float:left;
+text-align: center;
+height: 56px;
+width: 100px;
+line-height: 56px;
+/*border: 5px solid white;
+border-radius: 20px;*/
+color: white;
+font-size: 20px;
+}
+.button:hover {
+color: black;
+cursor: pointer;
+}
+/*============================================*/
+.login{
+float: left;
+border: none;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+width: 200px;
+height: 400px;
+padding: 3px 20px 5px 5px;
+background-color: white;
+border-radius: 8px;
+display: flex;
+align-items: center;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,1.9),0 6px 20px 0 rgba(0,0,0,1.19);
+}
+.login input {
+border: none;
+border-bottom: 2px black solid;
+outline: none;
+background: none;
+height: 35px;
+}
+.login button {
+width: 130px;
+height: 40px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*============================================*/
+/*============================================*/
+.register {
+border: none;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+width: 200px;
+height: 450px;
+padding: 3px 20px 5px 5px;
+background-color: white;
+border-radius: 8px;
+display: flex;
+align-items: center;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,1.9),0 6px 20px 0 rgba(0,0,0,1.19);
+}
+.register input {
+border: none;
+border-bottom: 2px black solid;
+outline: none;
+background: none;
+height: 35px;
+}
+.register button {
+width: 130px;
+height: 40px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 5px;
+}
+/*============================================*/
+.flex {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.login form {
+width: 100%;
+height: 100%;
+}
+.register form {
+width: 100%;
+height: 100%;
+}
+/*============================================*/
+.verify{
+background-color: black;
+border:solid;
+color:white;
+height: 400px;
+width: 400px;
+margin:auto;
+text-align: center;
+}
+.title{
+border-color: gray;
+border-bottom : solid;
+height: 30px;
+}
+
+.centerwrapper{
+display: flex !important;
+    width: 90% !important;
+    flex-wrap: wrap;
+    margin: auto !important;
+}
+
+form > div{
+  float:none !important;
+  height: auto !important;
+}

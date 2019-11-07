@@ -1,0 +1,34 @@
+		.box{
+				border: none;
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				width: 200px;
+				height: 320px;
+				padding: 3px 5px 5px 5px;
+				background-color: white;
+				border-radius: 8px;
+				display: flex;
+				align-items: center;
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,1.9),0 6px 20px 0 rgba(0,0,0,1.19);*/
+				display: flex;
+				align-items: center;
+				justify-content: center;*/
+		}
+		.box input {
+				border: none;
+				border-bottom: 2px black solid;
+				outline: none;
+				background: none;
+				height: 30px;
+				width: 150px;
+			}
+		.box button {
+				width: 70px;
+				height: 30px;
+				border-radius: 10px ;
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,1.9),0 6px 20px 0 rgba(0,0,0,1.19);
+	}
